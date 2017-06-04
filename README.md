@@ -4,7 +4,7 @@ JUnit + Surefire heap issue
 This repository reproduces an issue when running tests 
 with JUnit 5 and the Maven Surefire plugin 2.20
 
-To cause the error, simply run the only test in this project:
+To cause the error, simply run the `SpringJUnitJupiterTest` test in this project using:
 
 ```
 ./mvnw clean test
