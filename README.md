@@ -14,7 +14,8 @@ Even though the tests appear to run successfully, the build
 will fail with a reported "Java heap space" cause.
 
 Dropping the `maven-surefire-plugin.version` to `2.19.1`, the
-build passes.
+build passes. Alternatively, the equivalent test with JUnit 4
+works as is (it can be run with `./mvnw -Pjunit4 test`).
 
 | JUnit version | `maven-surefire-plugin.version` | Build result |
 | ------------- | ------------------------------- | ------------ |
